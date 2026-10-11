@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Define the Streamlit app
 def app():
     # Load the data from GitHub
-    url = 'https://raw.githubusercontent.com/outside-edge/toss-up/master/data/final_output.csv'
+    url = 'https://raw.githubusercontent.com/outside-edge/toss_up/master/data/final_output.csv'
     df = pd.read_csv(url)
 
     st.sidebar.title("Visualization Options")
